@@ -6,6 +6,9 @@
     <string name="kesehatan">Kesehatan</string>
     <string name="author">Author</string>
 
+    <string name="tab_text_1">Tab 1</string>
+    <string name="tab_text_2">Tab 2</string>
+
     <string name="subuh">Subuh</string>
     <string name="dzuhur">Dzuhur</string>
     <string name="ashar">Ashar</string>
@@ -129,5 +132,13 @@
     <string name="hadist30">HR. Muslim no 1218</string>
     <string name="ayat6">QS. Al – Baqarah : 196</string>
     <string name="ayat7">QS. Al – Hajj : 29</string>
+    <string name="hari_tasyriq">Hari-hari Tasyriq</string>
+    <string name="muzdalifah">Muzdalifah</string>
+    <string name="hari_nahar">Hari Nahar</string>
+    <string name="hari_arafah">Hari Arafah</string>
+    <string name="hari_tarwiyah">Hari Tarwiyah</string>
+    <string name="miqot">Miqot</string>
+    <string name="ihram">Ihram</string>
+    <string name="ihram_penjelasan">Penjelasan</string>
 
 </resources>

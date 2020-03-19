@@ -3,14 +3,14 @@
     package="com.example.bottomnavigation">
 
     <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
-    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
-    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
 
     <application
+        android:name=".AppController"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
-        android:name=".AppController"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
@@ -26,25 +26,34 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".MapsActivity"/>
-        <activity android:name=".search"
-            android:parentActivityName=".MainActivity"/>
-        <activity android:name=".DaftarIsi"
-            android:parentActivityName=".MainActivity"/>
-        <activity android:name=".Tentang"
-            android:parentActivityName=".MainActivity"/>
-        <activity android:name=".Rate"
-            android:parentActivityName=".MainActivity"/>
-
-        <activity android:name=".persiapanhaji"
-            android:parentActivityName=".MainActivity"/>
-        <activity android:name=".DzikirDoa"
-            android:parentActivityName=".MainActivity"/>
-        <activity android:name=".FiqihUmrah"
-            android:parentActivityName=".MainActivity"/>
-        <activity android:name=".FiqihHaji"
-            android:parentActivityName=".MainActivity"/>
-
+        <activity android:name=".MapsActivity" />
+        <activity
+            android:name=".search"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".DaftarIsi"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".Tentang"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".Rate"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".persiapanhaji"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".DzikirDoa"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".FiqihUmrah"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".FiqihHaji"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".MainActivityIhram"
+            android:parentActivityName=".FiqihUmrah" />
         <activity android:name=".dHakikatTalbiyah" />
         <activity android:name=".dMencariPertemananyangBaikdalamPerjalanan" />
         <activity android:name=".dBerhajiDenganHartaYangHalal" />
@@ -56,8 +65,6 @@
         <activity android:name=".dSegeraMenjadiTamuAllah" />
         <activity android:name=".dJamaahHajiTamuAllah" />
         <activity android:name=".dKeutamaanHaji" />
-
-
     </application>
 
 </manifest>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#239AB4</color>
+    <color name="colorPrimary">#3F51B5</color>
     <color name="colorPrimaryDark">#FFFFFF</color>
     <color name="colorAccent">#D81B60</color>
 
@@ -13,5 +13,6 @@
     <color name="date">#000000</color>
 
     <color name="apaaja">#e0f7fa</color>
+    <color name="bg">#828FD1</color>
 
 </resources>
