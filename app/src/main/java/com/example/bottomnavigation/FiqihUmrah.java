@@ -53,7 +53,7 @@ public class FiqihUmrah extends AppCompatActivity implements View.OnClickListene
                 startActivity(sai);
                 break;
             case R.id.btnfq6:
-                Intent gundul = new Intent(this, dBerhajiDenganHartaYangHalal.class);
+                Intent gundul = new Intent(this, MainActivityGundul.class);
                 startActivity(gundul);
                 break;
         }
