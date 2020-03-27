@@ -13,13 +13,13 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import java.util.ArrayList;
 
-public class FiqihUmrahIhramMiqot extends Fragment {
+public class MainActivityMiqot extends Fragment {
     RecyclerView mrecyclerView;
     AdapterMiqot adapterMiqot;
 
-    private FiqihUmrahIhram.OnFragmentInteractionListener mListener;
+    private MainActivityMiqot.OnFragmentInteractionListener mListener;
 
-    public FiqihUmrahIhramMiqot() {
+    public MainActivityMiqot() {
         // Required empty public constructor
     }
 
@@ -75,8 +75,8 @@ public class FiqihUmrahIhramMiqot extends Fragment {
     @Override
     public void onAttach(Context context) {
         super.onAttach(context);
-        if (context instanceof FiqihUmrahIhram.OnFragmentInteractionListener) {
-            mListener = (FiqihUmrahIhram.OnFragmentInteractionListener) context;
+        if (context instanceof MainActivityMiqot.OnFragmentInteractionListener) {
+            mListener = (MainActivityMiqot.OnFragmentInteractionListener) context;
         } else {
             throw new RuntimeException(context.toString()
                     + " must implement OnFragmentInteractionListener");

@@ -8,8 +8,7 @@ import androidx.viewpager.widget.ViewPager;
 
 import com.google.android.material.tabs.TabLayout;
 
-public class FiqihHaji extends AppCompatActivity implements Haji1.OnFragmentInteractionListener,
-        Haji2.OnFragmentInteractionListener, Haji3.OnFragmentInteractionListener {
+public class nMencukur extends AppCompatActivity implements Cukur1.OnFragmentInteractionListener, Cukur2.OnFragmentInteractionListener {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -17,13 +16,12 @@ public class FiqihHaji extends AppCompatActivity implements Haji1.OnFragmentInte
         setContentView(R.layout.fiqihumrah_viewpager);
 
         TabLayout tabs = findViewById(R.id.tabs);
-        tabs.addTab(tabs.newTab().setText("Haji Tamattu"));
-        tabs.addTab(tabs.newTab().setText("Haji Ifrod"));
-        tabs.addTab(tabs.newTab().setText("Haji Qiron"));
+        tabs.addTab(tabs.newTab().setText("Penjelasan"));
+        tabs.addTab(tabs.newTab().setText("Kesalahan"));
         tabs.setTabGravity(TabLayout.GRAVITY_FILL);
 
         final ViewPager viewPager = findViewById(R.id.view_pager);
-        PagerAdapterSai pagerAdapter = new PagerAdapterSai(getSupportFragmentManager(), tabs.getTabCount());
+        PagerAdapterCukur pagerAdapter = new PagerAdapterCukur(getSupportFragmentManager(), tabs.getTabCount());
         viewPager.setAdapter(pagerAdapter);
         viewPager.setOnPageChangeListener(new TabLayout.TabLayoutOnPageChangeListener(tabs));
 

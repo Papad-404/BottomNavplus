@@ -13,28 +13,28 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import java.util.ArrayList;
 
-public class FiqihUmrahIhram extends Fragment implements View.OnClickListener {
+public class Haji1 extends Fragment implements View.OnClickListener {
 
     RecyclerView mrecyclerView;
-    AdapterIhram ihramAdapter;
+    AdapterHaji adapterHaji;
 
-    private OnFragmentInteractionListener mListener;
+    private Haji1.OnFragmentInteractionListener mListener;
 
-    public FiqihUmrahIhram() {
+    public Haji1() {
         // Required empty public constructor
     }
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
-        View view = inflater.inflate(R.layout.fiqihumrah_ihram, container, false);
+        View view = inflater.inflate(R.layout.haji_tamattu, container, false);
 
         mrecyclerView = view.findViewById(R.id.recyclerview);
         RecyclerView.LayoutManager layoutManager = (new LinearLayoutManager(getActivity()));
         mrecyclerView.setLayoutManager(layoutManager);
 
-        ihramAdapter = new AdapterIhram(getActivity(), getMyList());
-        mrecyclerView.setAdapter(ihramAdapter);
+        adapterHaji = new AdapterHaji(getActivity(), getMyList());
+        mrecyclerView.setAdapter(adapterHaji);
         // Inflate the layout for this fragment
 
         mrecyclerView.setOnClickListener(this);
@@ -50,23 +50,23 @@ public class FiqihUmrahIhram extends Fragment implements View.OnClickListener {
         models.add(model);
 
         model = new ModelIhram();
-        model.setTitle("Larangan-larangan");
+        model.setTitle("Umroh");
         model.setImg(R.drawable.ihram_larangan);
         models.add(model);
 
         model = new ModelIhram();
-        model.setTitle("Sunnah-sunnah");
+        model.setTitle("Menetap");
         model.setImg(R.drawable.ihram_sunnah);
         models.add(model);
 
         model = new ModelIhram();
-        model.setTitle("Niat");
+        model.setTitle("Pelaksanaan");
         model.setImg(R.drawable.ihram_niat);
         models.add(model);
 
         model = new ModelIhram();
-        model.setTitle("Kesalahan");
-        model.setImg(R.drawable.ihram_kesalahan);
+        model.setTitle("Thawaf Wada");
+        model.setImg(R.drawable.ihram_niat);
         models.add(model);
 
         return models;
@@ -82,8 +82,8 @@ public class FiqihUmrahIhram extends Fragment implements View.OnClickListener {
     @Override
     public void onAttach(Context context) {
         super.onAttach(context);
-        if (context instanceof OnFragmentInteractionListener) {
-            mListener = (OnFragmentInteractionListener) context;
+        if (context instanceof Haji1.OnFragmentInteractionListener) {
+            mListener = (Haji1.OnFragmentInteractionListener) context;
         } else {
             throw new RuntimeException(context.toString()
                     + " must implement OnFragmentInteractionListener");
