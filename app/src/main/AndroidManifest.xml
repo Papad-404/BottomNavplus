@@ -57,6 +57,12 @@
             android:parentActivityName=".FiqihUmrah" />
         <activity android:name=".MainActivityGundul"
             android:parentActivityName=".FiqihUmrah"/>
+        <activity android:name=".MainActivityMaqom"
+            android:parentActivityName=".FiqihUmrah"/>
+        <activity android:name=".MainActivityZamzam"
+            android:parentActivityName=".FiqihUmrah"/>
+        <activity android:name=".MainActivityThawaf"
+            android:parentActivityName=".FiqihUmrah"/>
 
         <activity android:name=".dHakikatTalbiyah" />
         <activity android:name=".dMencariPertemananyangBaikdalamPerjalanan" />
@@ -91,6 +97,10 @@
             android:parentActivityName=".IhramActivity"/>
         <activity android:name=".mKesalahan"
             android:parentActivityName=".IhramActivity"/>
+        <activity android:name=".Maqom1"
+            android:parentActivityName=".MainActivityMaqom"/>
+        <activity android:name=".Maqom2"
+            android:parentActivityName=".MainActivityMaqom"/>
 
         <activity android:name=".iLaranganPotong"
             android:parentActivityName=".iLarangan"/>

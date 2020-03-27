@@ -37,19 +37,19 @@ public class FiqihUmrah extends AppCompatActivity implements View.OnClickListene
                 startActivity(ihram);
                 break;
             case R.id.btnfq2:
-                Intent thawaf = new Intent(this, FiqihHaji.class);
+                Intent thawaf = new Intent(this, MainActivityThawaf.class);
                 startActivity(thawaf);
                 break;
             case R.id.btnfq3:
-                Intent maqom = new Intent(this, FiqihUmrah.class);
+                Intent maqom = new Intent(this, MainActivityMaqom.class);
                 startActivity(maqom);
                 break;
             case R.id.btnfq4:
-                Intent zamzam = new Intent(this, DzikirDoa.class);
+                Intent zamzam = new Intent(this, MainActivityZamzam.class);
                 startActivity(zamzam);
                 break;
             case R.id.btnfq5:
-                Intent sai = new Intent(this, DaftarIsi.class);
+                Intent sai = new Intent(this, MainActivitySai.class);
                 startActivity(sai);
                 break;
             case R.id.btnfq6:
