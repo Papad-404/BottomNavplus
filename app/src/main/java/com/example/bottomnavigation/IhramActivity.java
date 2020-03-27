@@ -23,6 +23,5 @@ public class IhramActivity extends AppCompatActivity {
 
         mtext = findViewById(R.id.text_penjelas);
         imageView = findViewById(R.id.image_penjelas);
-
     }
 }
