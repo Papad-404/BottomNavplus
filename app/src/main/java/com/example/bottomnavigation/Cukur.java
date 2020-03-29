@@ -8,7 +8,7 @@ import androidx.viewpager.widget.ViewPager;
 
 import com.google.android.material.tabs.TabLayout;
 
-public class nSai extends AppCompatActivity implements Cukur1.OnFragmentInteractionListener, Cukur2.OnFragmentInteractionListener {
+public class Cukur extends AppCompatActivity implements Cukur1.OnFragmentInteractionListener, Cukur2.OnFragmentInteractionListener {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

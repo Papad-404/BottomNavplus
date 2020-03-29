@@ -8,7 +8,8 @@ import androidx.viewpager.widget.ViewPager;
 
 import com.google.android.material.tabs.TabLayout;
 
-public class MainActivityGundul extends AppCompatActivity implements Gundul1.OnFragmentInteractionListener, Gundul2.OnFragmentInteractionListener {
+public class MainActivityGundul extends AppCompatActivity implements Gundul1.OnFragmentInteractionListener,
+        Gundul2.OnFragmentInteractionListener {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

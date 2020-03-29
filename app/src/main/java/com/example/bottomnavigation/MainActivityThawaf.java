@@ -8,8 +8,9 @@ import androidx.viewpager.widget.ViewPager;
 
 import com.google.android.material.tabs.TabLayout;
 
-public class MainActivityThawaf extends AppCompatActivity implements Thawaf1.OnFragmentInteractionListener,
-        Thawaf2.OnFragmentInteractionListener, Thawaf3.OnFragmentInteractionListener, Thawaf4.OnFragmentInteractionListener {
+public class MainActivityThawaf extends AppCompatActivity implements
+        Thawaf1.OnFragmentInteractionListener, Thawaf2.OnFragmentInteractionListener,
+        Thawaf3.OnFragmentInteractionListener, Thawaf4.OnFragmentInteractionListener {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

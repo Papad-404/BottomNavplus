@@ -7,7 +7,7 @@ import android.view.View;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.cardview.widget.CardView;
 
-public class FiqihUmrah extends AppCompatActivity implements View.OnClickListener {
+public class hFiqihUmrah extends AppCompatActivity implements View.OnClickListener {
     CardView btn1, btn2, btn3, btn4, btn5, btn6;
 
     @Override

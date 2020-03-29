@@ -95,14 +95,14 @@
                     android:layout_width="match_parent"
                     android:layout_height="120dp"
                     android:background="@color/buttonDefault"
-                    android:src="@drawable/hari_annahr"
+                    android:src="@drawable/muzdalifah"
                     android:padding="20dp"/>
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:textStyle="bold"
                     android:layout_marginTop="10dp"
-                    android:text="@string/hari_nahar"
+                    android:text="@string/muzdalifah"
                     android:textSize="15sp"/>
 
             </LinearLayout>
@@ -123,14 +123,14 @@
                     android:layout_width="match_parent"
                     android:layout_height="120dp"
                     android:background="@color/buttonDefault"
-                    android:src="@drawable/muzdalifah"
+                    android:src="@drawable/hari_annahr"
                     android:padding="20dp"/>
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:textStyle="bold"
                     android:layout_marginTop="10dp"
-                    android:text="@string/muzdalifah"
+                    android:text="@string/hari_nahar"
                     android:textSize="15sp"/>
 
             </LinearLayout>

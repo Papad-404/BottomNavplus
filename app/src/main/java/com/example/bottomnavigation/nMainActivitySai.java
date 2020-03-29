@@ -8,7 +8,8 @@ import androidx.viewpager.widget.ViewPager;
 
 import com.google.android.material.tabs.TabLayout;
 
-public class MainActivitySai extends AppCompatActivity implements Sai1.OnFragmentInteractionListener,
+public class nMainActivitySai extends AppCompatActivity implements
+        Sai1.OnFragmentInteractionListener,
         Sai2.OnFragmentInteractionListener,
         Sai3.OnFragmentInteractionListener {
 

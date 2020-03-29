@@ -8,8 +8,10 @@ import androidx.viewpager.widget.ViewPager;
 
 import com.google.android.material.tabs.TabLayout;
 
-public class FiqihHaji extends AppCompatActivity implements Haji1.OnFragmentInteractionListener,
-        Haji2.OnFragmentInteractionListener, Haji3.OnFragmentInteractionListener {
+public class FiqihHaji extends AppCompatActivity implements
+        Haji1.OnFragmentInteractionListener,
+        Haji2.OnFragmentInteractionListener,
+        Haji3.OnFragmentInteractionListener {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -23,7 +25,7 @@ public class FiqihHaji extends AppCompatActivity implements Haji1.OnFragmentInte
         tabs.setTabGravity(TabLayout.GRAVITY_FILL);
 
         final ViewPager viewPager = findViewById(R.id.view_pager);
-        PagerAdapterSai pagerAdapter = new PagerAdapterSai(getSupportFragmentManager(), tabs.getTabCount());
+        PagerAdapterHaji pagerAdapter = new PagerAdapterHaji(getSupportFragmentManager(), tabs.getTabCount());
         viewPager.setAdapter(pagerAdapter);
         viewPager.setOnPageChangeListener(new TabLayout.TabLayoutOnPageChangeListener(tabs));
 

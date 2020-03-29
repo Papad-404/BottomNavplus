@@ -53,7 +53,7 @@ public class AdapterNahr extends RecyclerView.Adapter<HolderIhram> {
                     context.startActivity(in);
                 }
                 if (ihramModel.get(position).getTitle().equals("Sai")) {
-                    Intent in = new Intent(context, nSai.class);
+                    Intent in = new Intent(context, nMainActivitySai.class);
                     context.startActivity(in);
                 }
 

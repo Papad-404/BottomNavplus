@@ -52,9 +52,7 @@
         <activity
             android:name=".FiqihHaji"
             android:parentActivityName=".MainActivity" />
-        <activity
-            android:name=".MainActivityIhram"
-            android:parentActivityName=".FiqihUmrah" />
+
         <activity android:name=".MainActivityGundul"
             android:parentActivityName=".FiqihUmrah"/>
         <activity android:name=".MainActivityMaqom"
@@ -64,6 +62,8 @@
         <activity android:name=".MainActivityThawaf"
             android:parentActivityName=".FiqihUmrah"/>
         <activity android:name=".MainActivitySai"
+            android:parentActivityName=".FiqihUmrah"/>
+        <activity android:name=".MainActivityUmrah"
             android:parentActivityName=".FiqihUmrah"/>
 
         <activity android:name=".dHakikatTalbiyah" />
@@ -121,6 +121,44 @@
             android:parentActivityName=".MainActivitySai"/>
         <activity android:name=".sHikmah"
             android:parentActivityName=".MainActivitySai"/>
+
+        <activity android:name=".hThawaf"
+            android:parentActivityName=".FiqihHaji"/>
+        <activity android:name=".hPenjelasan"
+            android:parentActivityName=".FiqihHaji"/>
+        <activity android:name=".hPelaksanaan"
+            android:parentActivityName=".FiqihHaji"/>
+        <activity android:name=".hMenetap"
+            android:parentActivityName=".FiqihHaji"/>
+        <activity android:name=".hFiqihUmrah"
+            android:parentActivityName=".FiqihHaji"/>
+        <activity android:name=".hrTasyriq"
+            android:parentActivityName=".hPelaksanaan"/>
+        <activity android:name=".hrArafah"
+            android:parentActivityName=".hPelaksanaan"/>
+        <activity android:name=".hrMuzdalifah"
+            android:parentActivityName=".hPelaksanaan"/>
+        <activity android:name=".hrNahr"
+            android:parentActivityName=".hPelaksanaan"/>
+        <activity android:name=".hrTarwiyah"
+            android:parentActivityName=".hPelaksanaan"/>
+
+        <activity android:name=".nMainActivitySai"
+            android:parentActivityName=".hrNahr"/>
+        <activity android:name=".nMencukur"
+            android:parentActivityName=".hrNahr"/>
+        <activity android:name=".nThawaf"
+            android:parentActivityName=".hrNahr"/>
+        <activity android:name=".nMenyembelih"
+            android:parentActivityName=".hrNahr"/>
+        <activity android:name=".nMelempar"
+            android:parentActivityName=".hrNahr"/>
+        <activity android:name=".Cukur"
+            android:parentActivityName=".hrNahr"/>
+        <activity android:name=".tsMabit"
+            android:parentActivityName=".hrTasyriq"/>
+        <activity android:name=".tsMelempar"
+            android:parentActivityName=".hrTasyriq"/>
 
 
         <activity android:name=".iLaranganPotong"

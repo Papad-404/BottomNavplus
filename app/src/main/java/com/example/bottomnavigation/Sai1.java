@@ -36,7 +36,6 @@ public class Sai1 extends Fragment implements View.OnClickListener {
         adapterSai = new AdapterSai(getActivity(), getMyList());
         mrecyclerView.setAdapter(adapterSai);
         // Inflate the layout for this fragment
-
         mrecyclerView.setOnClickListener(this);
         return view;
     }

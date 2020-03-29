@@ -31,23 +31,23 @@ public class hPelaksanaan extends AppCompatActivity implements View.OnClickListe
     public void onClick(View view) {
         switch (view.getId()) {
             case R.id.btnhj1:
-                Intent tarwiyah = new Intent(this, hTarwiyah.class);
+                Intent tarwiyah = new Intent(this, hrTarwiyah.class);
                 startActivity(tarwiyah);
                 break;
             case R.id.btnhj2:
-                Intent arafah = new Intent(this, hArafah.class);
+                Intent arafah = new Intent(this, hrArafah.class);
                 startActivity(arafah);
                 break;
             case R.id.btnhj3:
-                Intent muzd = new Intent(this, hMuzdalifah.class);
+                Intent muzd = new Intent(this, hrMuzdalifah.class);
                 startActivity(muzd);
                 break;
             case R.id.btnhj4:
-                Intent nahr = new Intent(this, hNahr.class);
+                Intent nahr = new Intent(this, hrNahr.class);
                 startActivity(nahr);
                 break;
             case R.id.btnhj5:
-                Intent tasy = new Intent(this, hTasyriq.class);
+                Intent tasy = new Intent(this, hrTasyriq.class);
                 startActivity(tasy);
                 break;
         }

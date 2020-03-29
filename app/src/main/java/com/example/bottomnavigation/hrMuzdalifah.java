@@ -4,10 +4,10 @@ import android.os.Bundle;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-public class hArafah extends AppCompatActivity {
+public class hrMuzdalifah extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate (savedInstanceState);
-        setContentView (R.layout.hari_arafah);
+        setContentView (R.layout.hari_muzd);
     }
 }

@@ -11,12 +11,12 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import java.util.ArrayList;
 
-public class AdapterHaji extends RecyclerView.Adapter<HolderIhram> {
+public class AdapterTasyriq extends RecyclerView.Adapter<HolderIhram> {
 
     Context context;
     ArrayList<ModelIhram> ihramModel;
 
-    public AdapterHaji(Context context, ArrayList<ModelIhram> ihramModel){
+    public AdapterTasyriq(Context context, ArrayList<ModelIhram> ihramModel){
         this.context = context;
         this.ihramModel = ihramModel;
     }
@@ -36,24 +36,12 @@ public class AdapterHaji extends RecyclerView.Adapter<HolderIhram> {
         holder.setClickListenerIhram(new ItemClickListenerIhram() {
             @Override
             public void onItemClickListenerIhram(View v, int position) {
-                if (ihramModel.get(position).getTitle().equals("Penjelasan")) {
-                    Intent jelas = new Intent(context, hPenjelasan.class);
+                if (ihramModel.get(position).getTitle().equals("Mabit")) {
+                    Intent jelas = new Intent(context, tsMabit.class);
                     context.startActivity(jelas);
                 }
-                if (ihramModel.get(position).getTitle().equals("Umroh")) {
-                    Intent in = new Intent(context, hFiqihUmrah.class);
-                    context.startActivity(in);
-                }
-                if (ihramModel.get(position).getTitle().equals("Menetap")) {
-                    Intent in = new Intent(context, hMenetap.class);
-                    context.startActivity(in);
-                }
-                if (ihramModel.get(position).getTitle().equals("Pelaksanaan")) {
-                    Intent in = new Intent(context, hPelaksanaan.class);
-                    context.startActivity(in);
-                }
-                if (ihramModel.get(position).getTitle().equals("Thawaf Wada")) {
-                    Intent in = new Intent(context, hThawaf.class);
+                if (ihramModel.get(position).getTitle().equals("Melempar")) {
+                    Intent in = new Intent(context, tsMelempar.class);
                     context.startActivity(in);
                 }
 

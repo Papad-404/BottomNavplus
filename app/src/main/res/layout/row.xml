@@ -15,8 +15,8 @@
 
         <ImageView
             android:id="@+id/image_penjelas"
-            android:layout_width="75dp"
-            android:layout_height="75dp"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
             android:src="@drawable/ihram_penjelasan" />
 
         <TextView
@@ -31,7 +31,7 @@
             android:paddingLeft="15dp"
             android:text="@string/ihram_penjelasan"
             android:textColor="#000"
-            android:textSize="20dp"
+            android:textSize="18dp"
             android:textStyle="bold" />
     </RelativeLayout>
 
