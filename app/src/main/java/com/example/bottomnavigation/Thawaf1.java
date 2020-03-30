@@ -46,27 +46,27 @@ public class Thawaf1 extends Fragment implements View.OnClickListener {
 
         ModelIhram model = new ModelIhram();
         model.setTitle("Keutamaan");
-        model.setImg(R.drawable.ihram_penjelasan);
+        model.setImg(R.drawable.t_keutamaan);
         models.add(model);
 
         model = new ModelIhram();
         model.setTitle("Macam-macam");
-        model.setImg(R.drawable.ihram_larangan);
+        model.setImg(R.drawable.t_macam);
         models.add(model);
 
         model = new ModelIhram();
         model.setTitle("Syarat-syarat");
-        model.setImg(R.drawable.ihram_sunnah);
+        model.setImg(R.drawable.t_syarat);
         models.add(model);
 
         model = new ModelIhram();
         model.setTitle("Sunnah-sunnah");
-        model.setImg(R.drawable.ihram_niat);
+        model.setImg(R.drawable.t_sunnah);
         models.add(model);
 
         model = new ModelIhram();
         model.setTitle("Peringatan-peringatan");
-        model.setImg(R.drawable.ihram_kesalahan);
+        model.setImg(R.drawable.t_peringatan);
         models.add(model);
 
         return models;

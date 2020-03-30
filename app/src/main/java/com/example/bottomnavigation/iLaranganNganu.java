@@ -4,10 +4,10 @@ import android.os.Bundle;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-public class iLaranganPotong extends AppCompatActivity {
+public class iLaranganNganu extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate (savedInstanceState);
-        setContentView (R.layout.i_laranganpotong);
+        setContentView (R.layout.i_larangannganu);
     }
 }

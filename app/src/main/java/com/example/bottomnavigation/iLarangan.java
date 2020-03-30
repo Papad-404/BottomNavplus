@@ -34,53 +34,53 @@ public class iLarangan extends AppCompatActivity implements View.OnClickListener
         ArrayList<ModelIhram> models = new ArrayList<>();
 
         ModelIhram model = new ModelIhram();
-        model.setTitle("memotong");
-        model.setImg(R.drawable.ihram_penjelasan);
+        model.setTitle("Memotong rambut/bulu");
+        model.setImg(R.drawable.i_laranganbulu);
         models.add(model);
 
         model = new ModelIhram();
-        model.setTitle("potong kuku");
-        model.setImg(R.drawable.ihram_larangan);
+        model.setTitle("Memotong kuku");
+        model.setImg(R.drawable.i_larangankuku);
         models.add(model);
 
         model = new ModelIhram();
-        model.setTitle("minyak wangi");
-        model.setImg(R.drawable.ihram_sunnah);
+        model.setTitle("Memakai minyak wangi");
+        model.setImg(R.drawable.i_laranganmw);
         models.add(model);
 
         model = new ModelIhram();
-        model.setTitle("nutup kpl");
-        model.setImg(R.drawable.ihram_niat);
+        model.setTitle("Menutup kepala");
+        model.setImg(R.drawable.i_larangankpl);
         models.add(model);
 
         model = new ModelIhram();
-        model.setTitle("jahit");
-        model.setImg(R.drawable.ihram_kesalahan);
+        model.setTitle("Pakaian jahit");
+        model.setImg(R.drawable.i_laranganjahit);
         models.add(model);
 
         model = new ModelIhram();
-        model.setTitle("berburu");
-        model.setImg(R.drawable.ihram_penjelasan);
+        model.setTitle("Berburu hewan darat");
+        model.setImg(R.drawable.i_laranganberburu);
         models.add(model);
 
         model = new ModelIhram();
-        model.setTitle("akad");
-        model.setImg(R.drawable.ihram_larangan);
+        model.setTitle("Melakukan akad");
+        model.setImg(R.drawable.i_larangannganu);
         models.add(model);
 
         model = new ModelIhram();
         model.setTitle("nganu");
-        model.setImg(R.drawable.ihram_sunnah);
+        model.setImg(R.drawable.i_larangannganu);
         models.add(model);
 
         model = new ModelIhram();
-        model.setTitle("cium");
-        model.setImg(R.drawable.ihram_niat);
+        model.setTitle("Bercumbu");
+        model.setImg(R.drawable.i_laranganbercumbu);
         models.add(model);
 
         model = new ModelIhram();
-        model.setTitle("peringatan");
-        model.setImg(R.drawable.ihram_kesalahan);
+        model.setTitle("Peringatan");
+        model.setImg(R.drawable.i_peringatan);
         models.add(model);
 
         return models;

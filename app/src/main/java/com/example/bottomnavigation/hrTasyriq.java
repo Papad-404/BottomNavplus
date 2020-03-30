@@ -38,12 +38,12 @@ public class hrTasyriq extends AppCompatActivity implements View.OnClickListener
 
         ModelIhram model = new ModelIhram();
         model.setTitle("Mabit");
-        model.setImg(R.drawable.ihram_penjelasan);
+        model.setImg(R.drawable.hrts_mabit);
         models.add(model);
 
         model = new ModelIhram();
         model.setTitle("Melempar");
-        model.setImg(R.drawable.ihram_larangan);
+        model.setImg(R.drawable.hrts_jamarot);
         models.add(model);
 
         return models;

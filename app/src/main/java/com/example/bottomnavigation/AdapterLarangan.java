@@ -36,24 +36,44 @@ public class AdapterLarangan extends RecyclerView.Adapter<HolderIhram> {
         holder.setClickListenerIhram(new ItemClickListenerIhram() {
             @Override
             public void onItemClickListenerIhram(View v, int position) {
-                if (ihramModel.get(position).getTitle().equals("memotong")) {
+                if (ihramModel.get(position).getTitle().equals("Memotong rambut/bulu")) {
                     Intent jelas = new Intent(context, iLaranganPotong.class);
                     context.startActivity(jelas);
                 }
-                if (ihramModel.get(position).getTitle().equals("Larangan-larangan")) {
-                    Intent in = new Intent(context, iLarangan.class);
+                if (ihramModel.get(position).getTitle().equals("Memotong kuku")) {
+                    Intent in = new Intent(context, iLaranganKuku.class);
                     context.startActivity(in);
                 }
-                if (ihramModel.get(position).getTitle().equals("Sunnah-sunnah")) {
-                    Intent in = new Intent(context, iSunnah.class);
+                if (ihramModel.get(position).getTitle().equals("Memakai minyak wangi")) {
+                    Intent in = new Intent(context, iLaranganMW.class);
                     context.startActivity(in);
                 }
-                if (ihramModel.get(position).getTitle().equals("Niat")) {
-                    Intent in = new Intent(context, iNiat.class);
+                if (ihramModel.get(position).getTitle().equals("Menutup kepala")) {
+                    Intent in = new Intent(context, iLaranganKpl.class);
                     context.startActivity(in);
                 }
-                if (ihramModel.get(position).getTitle().equals("Kesalahan")) {
-                    Intent in = new Intent(context, iKesalahan.class);
+                if (ihramModel.get(position).getTitle().equals("Pakaian jahit")) {
+                    Intent in = new Intent(context, iLaranganJahit.class);
+                    context.startActivity(in);
+                }
+                if (ihramModel.get(position).getTitle().equals("Berburu hewan darat")) {
+                    Intent jelas = new Intent(context, iLaranganBerburu.class);
+                    context.startActivity(jelas);
+                }
+                if (ihramModel.get(position).getTitle().equals("Melakukan akad")) {
+                    Intent in = new Intent(context, iLaranganAkad.class);
+                    context.startActivity(in);
+                }
+                if (ihramModel.get(position).getTitle().equals("nganu")) {
+                    Intent in = new Intent(context, iLaranganNganu.class);
+                    context.startActivity(in);
+                }
+                if (ihramModel.get(position).getTitle().equals("Bercumbu")) {
+                    Intent in = new Intent(context, iLaranganBercumbu.class);
+                    context.startActivity(in);
+                }
+                if (ihramModel.get(position).getTitle().equals("Peringatan")) {
+                    Intent in = new Intent(context, iPeringatan.class);
                     context.startActivity(in);
                 }
 
