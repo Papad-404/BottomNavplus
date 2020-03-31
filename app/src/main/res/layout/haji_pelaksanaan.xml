@@ -30,7 +30,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="120dp"
                     android:background="@color/buttonDefault"
-                    android:src="@mipmap/hari_tarwiyah2"
+                    android:src="@mipmap/hari_tarwiyah"
                     android:padding="20dp"/>
                 <TextView
                     android:layout_width="wrap_content"
@@ -58,7 +58,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="120dp"
                     android:background="@color/buttonDefault"
-                    android:src="@mipmap/hari_arofah2"
+                    android:src="@mipmap/hari_arofah"
                     android:padding="20dp"/>
                 <TextView
                     android:layout_width="wrap_content"
@@ -95,7 +95,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="120dp"
                     android:background="@color/buttonDefault"
-                    android:src="@mipmap/muzdalifah2"
+                    android:src="@mipmap/muzdalifah"
                     android:padding="20dp"/>
                 <TextView
                     android:layout_width="wrap_content"
@@ -123,7 +123,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="120dp"
                     android:background="@color/buttonDefault"
-                    android:src="@mipmap/hari_annahr2"
+                    android:src="@mipmap/hari_annahr"
                     android:padding="20dp"/>
                 <TextView
                     android:layout_width="wrap_content"
@@ -160,7 +160,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="120dp"
                     android:background="@color/buttonDefault"
-                    android:src="@mipmap/hari_tasyrik2"
+                    android:src="@mipmap/hari_tasyrik"
                     android:padding="20dp"/>
                 <TextView
                     android:layout_width="wrap_content"
