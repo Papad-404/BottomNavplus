@@ -20,8 +20,8 @@ import java.util.Calendar;
 
 public class FragmentHome extends Fragment implements View.OnClickListener {
     TextView textView;
-    Button button, button1;
-    Button persiapan, umroh, haji, dzikir, carahaji, caraumrah, peta, lokasi, tnj;
+    private Button button;
+    private Button persiapan, umroh, haji, dzikir, carahaji, caraumrah, peta, lokasi, tnj;
 
     @Nullable
     @Override

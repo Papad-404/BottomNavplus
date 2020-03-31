@@ -20,7 +20,7 @@
      android:id="@+id/kakbah"
      android:layout_width="match_parent"
      android:layout_height="183dp"
-     android:background="@drawable/kakbah" />
+     android:background="@mipmap/kakbah" />
 
  <TextView
      android:id="@+id/text_date"
@@ -43,7 +43,7 @@
      android:layout_marginTop="30dp"
      android:layout_below="@+id/kakbah"
      android:background="@color/buttonDefault"
-     android:drawableTop="@drawable/islam"
+     android:drawableTop="@mipmap/persiapanhaji"
      android:text="@string/persiapan"/>
 
  <Button
@@ -57,7 +57,7 @@
      android:layout_toEndOf="@id/persiapanhaji"
      android:layout_toRightOf="@id/persiapanhaji"
      android:background="@color/buttonDefault"
-     android:drawableTop="@drawable/fiqihumrah"
+     android:drawableTop="@mipmap/fiqihumrah"
      android:text="@string/fiqihumroh"
      android:gravity="center"/>
 
@@ -74,7 +74,7 @@
      android:layout_below="@+id/kakbah"
      android:layout_marginEnd="25dp"
      android:background="@color/buttonDefault"
-     android:drawableTop="@drawable/fiqihaji"
+     android:drawableTop="@mipmap/fiqihaji"
      android:text="@string/fiqihhaji"/>
 
  <Button
@@ -86,7 +86,7 @@
      android:layout_marginLeft="25dp"
      android:layout_marginStart="25dp"
      android:background="@color/buttonDefault"
-     android:drawableTop="@drawable/islam"
+     android:drawableTop="@mipmap/islam"
      android:text="@string/dzikir"/>
 
  <Button
@@ -100,7 +100,7 @@
      android:layout_toEndOf="@id/dzikir"
      android:layout_toRightOf="@id/dzikir"
      android:background="@color/buttonDefault"
-     android:drawableTop="@drawable/islam"
+     android:drawableTop="@mipmap/tatcarum"
      android:text="@string/tatacara"/>
 
  <Button
@@ -114,7 +114,7 @@
      android:layout_toEndOf="@id/tatacara"
      android:layout_toRightOf="@id/tatacara"
      android:background="@color/buttonDefault"
-     android:drawableTop="@drawable/islam"
+     android:drawableTop="@mipmap/tatcarhaj"
      android:text="@string/tatahaji"/>
 
  <Button
@@ -126,7 +126,7 @@
      android:layout_marginLeft="25dp"
      android:layout_marginStart="25dp"
      android:background="@color/buttonDefault"
-     android:drawableTop="@drawable/islam"
+     android:drawableTop="@mipmap/petajarak"
      android:text="@string/Petajarak"/>
 
  <Button
@@ -140,7 +140,7 @@
      android:layout_toRightOf="@id/petajarak"
      android:layout_toEndOf="@id/petajarak"
      android:background="@color/buttonDefault"
-     android:drawableTop="@drawable/islam"
+     android:drawableTop="@mipmap/lokasi"
      android:text="@string/lokasi"/>
 
  <Button
@@ -154,7 +154,7 @@
      android:layout_toRightOf="@id/lokasi"
      android:layout_toEndOf="@id/lokasi"
      android:background="@color/buttonDefault"
-     android:drawableTop="@drawable/islam"
+     android:drawableTop="@mipmap/tnj"
      android:text="@string/tanyajawab"/>
 
 </RelativeLayout>

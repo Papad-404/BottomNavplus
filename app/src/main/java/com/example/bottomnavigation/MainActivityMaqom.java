@@ -34,12 +34,12 @@ public class MainActivityMaqom extends AppCompatActivity implements View.OnClick
 
         ModelIhram model = new ModelIhram();
         model.setTitle("Apa itu?");
-        model.setImg(R.drawable.maqam_apa);
+        model.setImg(R.mipmap.maqam_apa);
         models.add(model);
 
         model = new ModelIhram();
         model.setTitle("Kesalahan");
-        model.setImg(R.drawable.ihram_larangan);
+        model.setImg(R.mipmap.ihram_larangan);
         models.add(model);
 
         return models;

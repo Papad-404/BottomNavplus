@@ -66,17 +66,30 @@
         <activity android:name=".MainActivityUmrah"
             android:parentActivityName=".FiqihUmrah"/>
 
-        <activity android:name=".dHakikatTalbiyah" />
-        <activity android:name=".dMencariPertemananyangBaikdalamPerjalanan" />
-        <activity android:name=".dBerhajiDenganHartaYangHalal" />
-        <activity android:name=".dHindariMaksiat" />
-        <activity android:name=".dJanganBerdebat" />
-        <activity android:name=".dMeneladaniNabi" />
-        <activity android:name=".dIklasdalamhaji" />
-        <activity android:name=".dBersabar" />
-        <activity android:name=".dSegeraMenjadiTamuAllah" />
-        <activity android:name=".dJamaahHajiTamuAllah" />
-        <activity android:name=".dKeutamaanHaji" />
+        <activity android:name=".dHakikatTalbiyah"
+            android:parentActivityName=".persiapanhaji"/>
+        <activity android:name=".dMencariPertemananyangBaikdalamPerjalanan"
+            android:parentActivityName=".persiapanhaji"/>
+        <activity android:name=".dBerhajiDenganHartaYangHalal"
+            android:parentActivityName=".persiapanhaji"/>
+        <activity android:name=".dHindariMaksiat"
+            android:parentActivityName=".persiapanhaji"/>
+        <activity android:name=".dJanganBerdebat"
+            android:parentActivityName=".persiapanhaji"/>
+        <activity android:name=".dMeneladaniNabi"
+            android:parentActivityName=".persiapanhaji"/>
+        <activity android:name=".dIklasdalamhaji"
+            android:parentActivityName=".persiapanhaji"/>
+        <activity android:name=".dBersabar"
+            android:parentActivityName=".persiapanhaji"/>
+        <activity android:name=".dSegeraMenjadiTamuAllah"
+            android:parentActivityName=".persiapanhaji"/>
+        <activity android:name=".dJamaahHajiTamuAllah"
+            android:parentActivityName=".persiapanhaji"/>
+        <activity android:name=".dKeutamaanHaji"
+            android:parentActivityName=".persiapanhaji"/>
+        <activity android:name=".dBertaubatSebelumHaji"
+            android:parentActivityName=".persiapanhaji"/>
 
         <activity android:name=".IhramActivity"
             android:parentActivityName=".MainActivityIhram"/>
@@ -163,6 +176,25 @@
 
         <activity android:name=".iLaranganPotong"
             android:parentActivityName=".iLarangan"/>
+        <activity android:name=".iLaranganBercumbu"
+            android:parentActivityName=".iLarangan"/>
+        <activity android:name=".iLaranganNganu"
+            android:parentActivityName=".iLarangan"/>
+        <activity android:name=".iLaranganBerburu"
+            android:parentActivityName=".iLarangan"/>
+        <activity android:name=".iLaranganJahit"
+            android:parentActivityName=".iLarangan"/>
+        <activity android:name=".iLaranganMW"
+            android:parentActivityName=".iLarangan"/>
+        <activity android:name=".iLaranganKuku"
+            android:parentActivityName=".iLarangan"/>
+        <activity android:name=".iLaranganAkad"
+            android:parentActivityName=".iLarangan"/>
+        <activity android:name=".iLaranganKpl"
+            android:parentActivityName=".iLarangan"/>
+        <activity android:name=".iPeringatan"
+            android:parentActivityName=".iLarangan"/>
+
 
     </application>
 

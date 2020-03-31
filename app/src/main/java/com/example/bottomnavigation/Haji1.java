@@ -46,27 +46,27 @@ public class Haji1 extends Fragment implements View.OnClickListener {
 
         ModelIhram model = new ModelIhram();
         model.setTitle("Penjelasan");
-        model.setImg(R.drawable.ihram_penjelasan);
+        model.setImg(R.mipmap.ihram_penjelasan);
         models.add(model);
 
         model = new ModelIhram();
         model.setTitle("Umroh");
-        model.setImg(R.drawable.h_umrah);
+        model.setImg(R.mipmap.h_umrah);
         models.add(model);
 
         model = new ModelIhram();
         model.setTitle("Menetap");
-        model.setImg(R.drawable.h_menetap);
+        model.setImg(R.mipmap.h_menetap);
         models.add(model);
 
         model = new ModelIhram();
         model.setTitle("Pelaksanaan");
-        model.setImg(R.drawable.h_pelaksanaan);
+        model.setImg(R.mipmap.h_pelaksanaan);
         models.add(model);
 
         model = new ModelIhram();
         model.setTitle("Thawaf Wada");
-        model.setImg(R.drawable.h_thawaf);
+        model.setImg(R.mipmap.h_thawaf);
         models.add(model);
 
         return models;

@@ -37,27 +37,27 @@ public class hrNahr extends AppCompatActivity implements View.OnClickListener {
 
         ModelIhram model = new ModelIhram();
         model.setTitle("Melempar");
-        model.setImg(R.drawable.hrts_jamarot);
+        model.setImg(R.mipmap.hrts_jamarot);
         models.add(model);
 
         model = new ModelIhram();
         model.setTitle("Menyembelih");
-        model.setImg(R.drawable.hran_dam);
+        model.setImg(R.mipmap.hran_dam);
         models.add(model);
 
         model = new ModelIhram();
         model.setTitle("Mencukur");
-        model.setImg(R.drawable.hran_tahallul);
+        model.setImg(R.mipmap.hran_tahallul);
         models.add(model);
 
         model = new ModelIhram();
         model.setTitle("Thowaf");
-        model.setImg(R.drawable.hran_thawaf);
+        model.setImg(R.mipmap.hran_thawaf);
         models.add(model);
 
         model = new ModelIhram();
         model.setTitle("Sai");
-        model.setImg(R.drawable.sai);
+        model.setImg(R.mipmap.sai);
         models.add(model);
 
         return models;

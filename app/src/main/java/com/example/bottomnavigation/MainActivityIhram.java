@@ -46,27 +46,27 @@ public class MainActivityIhram extends Fragment implements View.OnClickListener 
 
         ModelIhram model = new ModelIhram();
         model.setTitle("Penjelasan");
-        model.setImg(R.drawable.ihram_penjelasan);
+        model.setImg(R.mipmap.ihram_penjelasan);
         models.add(model);
 
         model = new ModelIhram();
         model.setTitle("Larangan-larangan");
-        model.setImg(R.drawable.ihram_larangan);
+        model.setImg(R.mipmap.ihram_larangan);
         models.add(model);
 
         model = new ModelIhram();
         model.setTitle("Sunnah-sunnah");
-        model.setImg(R.drawable.ihram_sunnah);
+        model.setImg(R.mipmap.ihram_sunnah);
         models.add(model);
 
         model = new ModelIhram();
         model.setTitle("Niat");
-        model.setImg(R.drawable.ihram_niat);
+        model.setImg(R.mipmap.ihram_niat);
         models.add(model);
 
         model = new ModelIhram();
         model.setTitle("Kesalahan");
-        model.setImg(R.drawable.ihram_kesalahan);
+        model.setImg(R.mipmap.ihram_kesalahan);
         models.add(model);
 
         return models;

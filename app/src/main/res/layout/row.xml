@@ -17,7 +17,7 @@
             android:id="@+id/image_penjelas"
             android:layout_width="60dp"
             android:layout_height="60dp"
-            android:src="@drawable/ihram_penjelasan" />
+            android:src="@mipmap/ihram_penjelasan" />
 
         <TextView
             android:id="@+id/text_penjelas"

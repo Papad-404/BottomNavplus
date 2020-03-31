@@ -35,52 +35,52 @@ public class iLarangan extends AppCompatActivity implements View.OnClickListener
 
         ModelIhram model = new ModelIhram();
         model.setTitle("Memotong rambut/bulu");
-        model.setImg(R.drawable.i_laranganbulu);
+        model.setImg(R.mipmap.i_laranganbulu);
         models.add(model);
 
         model = new ModelIhram();
         model.setTitle("Memotong kuku");
-        model.setImg(R.drawable.i_larangankuku);
+        model.setImg(R.mipmap.i_larangankuku);
         models.add(model);
 
         model = new ModelIhram();
         model.setTitle("Memakai minyak wangi");
-        model.setImg(R.drawable.i_laranganmw);
+        model.setImg(R.mipmap.i_laranganmw);
         models.add(model);
 
         model = new ModelIhram();
         model.setTitle("Menutup kepala");
-        model.setImg(R.drawable.i_larangankpl);
+        model.setImg(R.mipmap.i_larangankpl);
         models.add(model);
 
         model = new ModelIhram();
         model.setTitle("Pakaian jahit");
-        model.setImg(R.drawable.i_laranganjahit);
+        model.setImg(R.mipmap.i_laranganjahit);
         models.add(model);
 
         model = new ModelIhram();
         model.setTitle("Berburu hewan darat");
-        model.setImg(R.drawable.i_laranganberburu);
+        model.setImg(R.mipmap.i_laranganberburu);
         models.add(model);
 
         model = new ModelIhram();
         model.setTitle("Melakukan akad");
-        model.setImg(R.drawable.i_larangannganu);
+        model.setImg(R.mipmap.i_larangannganu);
         models.add(model);
 
         model = new ModelIhram();
         model.setTitle("nganu");
-        model.setImg(R.drawable.i_larangannganu);
+        model.setImg(R.mipmap.i_larangannganu);
         models.add(model);
 
         model = new ModelIhram();
         model.setTitle("Bercumbu");
-        model.setImg(R.drawable.i_laranganbercumbu);
+        model.setImg(R.mipmap.i_laranganbercumbu);
         models.add(model);
 
         model = new ModelIhram();
         model.setTitle("Peringatan");
-        model.setImg(R.drawable.i_peringatan);
+        model.setImg(R.mipmap.i_peringatan);
         models.add(model);
 
         return models;

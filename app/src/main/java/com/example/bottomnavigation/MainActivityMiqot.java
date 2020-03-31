@@ -43,22 +43,22 @@ public class MainActivityMiqot extends Fragment {
 
         ModelIhram model = new ModelIhram();
         model.setTitle("Penjelasan");
-        model.setImg(R.drawable.ihram_penjelasan);
+        model.setImg(R.mipmap.ihram_penjelasan);
         models.add(model);
 
         model = new ModelIhram();
         model.setTitle("Miqot-miqot");
-        model.setImg(R.drawable.ihram_miqot);
+        model.setImg(R.mipmap.ihram_miqot);
         models.add(model);
 
         model = new ModelIhram();
         model.setTitle("Jeddah bukan miqot");
-        model.setImg(R.drawable.ihram_jeddah);
+        model.setImg(R.mipmap.ihram_jeddah);
         models.add(model);
 
         model = new ModelIhram();
         model.setTitle("Kesalahan-kesalahan");
-        model.setImg(R.drawable.ihram_kesalahan);
+        model.setImg(R.mipmap.ihram_kesalahan);
         models.add(model);
 
 

@@ -32,7 +32,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="120dp"
                     android:background="@color/buttonDefault"
-                    android:src="@drawable/dzikirhnu"
+                    android:src="@mipmap/dzikirhnu"
                     android:padding="20dp"/>
                 <TextView
                     android:layout_width="wrap_content"
@@ -60,7 +60,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="120dp"
                     android:background="@color/buttonDefault"
-                    android:src="@drawable/dzikirpnp"
+                    android:src="@mipmap/dzikirpnp"
                     android:padding="20dp"/>
                 <TextView
                     android:layout_width="wrap_content"
@@ -97,7 +97,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="120dp"
                     android:background="@color/buttonDefault"
-                    android:src="@drawable/ddkeseharian"
+                    android:src="@mipmap/ddkeseharian"
                     android:padding="20dp"/>
                 <TextView
                     android:layout_width="wrap_content"
@@ -125,7 +125,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="120dp"
                     android:background="@color/buttonDefault"
-                    android:src="@drawable/doaumum"
+                    android:src="@mipmap/doaumum"
                     android:padding="20dp"/>
                 <TextView
                     android:layout_width="wrap_content"

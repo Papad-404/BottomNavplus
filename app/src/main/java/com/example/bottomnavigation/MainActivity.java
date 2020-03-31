@@ -43,19 +43,19 @@ public class MainActivity extends AppCompatActivity implements BottomNavigationV
     public boolean onNavigationItemSelected(@NonNull MenuItem menuItem) {
         Fragment fragment = null;
         switch (menuItem.getItemId()) {
-            case R.id.home :
+            case 1:
                 fragment = new FragmentHome();
                 break;
-            case R.id.sholat :
+            case 2:
                 fragment = new FragmentSholat();
                 break;
-            case R.id.kiblat :
+            case 3:
                 fragment = new FragmentKiblat();
                 break;
-            case R.id.kesehatan :
+            case 4:
                 fragment = new FragmentHealth();
                 break;
-            case R.id.author :
+            case 5:
                 fragment = new FragmentUser();
                 break;
         }

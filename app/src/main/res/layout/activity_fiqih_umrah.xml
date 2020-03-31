@@ -33,7 +33,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="120dp"
                     android:background="@color/buttonDefault"
-                    android:src="@drawable/ihram"
+                    android:src="@mipmap/ihram"
                     android:padding="20dp"/>
                 <TextView
                     android:layout_width="wrap_content"
@@ -61,7 +61,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="120dp"
                     android:background="@color/buttonDefault"
-                    android:src="@drawable/thawaf"
+                    android:src="@mipmap/thawaf"
                     android:padding="20dp"/>
                 <TextView
                     android:layout_width="wrap_content"
@@ -98,7 +98,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="120dp"
                     android:background="@color/buttonDefault"
-                    android:src="@drawable/maqom"
+                    android:src="@mipmap/maqom"
                     android:padding="20dp"/>
                 <TextView
                     android:layout_width="wrap_content"
@@ -191,7 +191,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="120dp"
                     android:background="@color/buttonDefault"
-                    android:src="@drawable/gundul"
+                    android:src="@mipmap/gundul"
                     android:padding="20dp"/>
                 <TextView
                     android:layout_width="wrap_content"

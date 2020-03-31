@@ -45,22 +45,22 @@ public class Sai1 extends Fragment implements View.OnClickListener {
 
         ModelIhram model = new ModelIhram();
         model.setTitle("Sejarah");
-        model.setImg(R.drawable.s_sejarah);
+        model.setImg(R.mipmap.s_sejarah);
         models.add(model);
 
         model = new ModelIhram();
         model.setTitle("Hikmah");
-        model.setImg(R.drawable.s_hikmah);
+        model.setImg(R.mipmap.s_hikmah);
         models.add(model);
 
         model = new ModelIhram();
         model.setTitle("Rukun");
-        model.setImg(R.drawable.s_rukun);
+        model.setImg(R.mipmap.s_rukun);
         models.add(model);
 
         model = new ModelIhram();
         model.setTitle("Hukum-hukum");
-        model.setImg(R.drawable.s_hukum);
+        model.setImg(R.mipmap.s_hukum);
         models.add(model);
 
         return models;
