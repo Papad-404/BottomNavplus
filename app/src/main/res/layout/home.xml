@@ -1,160 +1,371 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout
-    android:id="@+id/frame_home"
+<LinearLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical">
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="@color/mainbg"
+    android:id="@+id/frame_home">
 
-    <Button
-        android:id="@+id/btncity"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentTop="true"
-        android:layout_marginTop="7dp"
-        android:text="@string/search"
-        android:hint="@string/search" />
-
-
- <ImageView
-     android:id="@+id/kakbah"
+ <LinearLayout
      android:layout_width="match_parent"
-     android:layout_height="183dp"
-     android:background="@mipmap/kakbah" />
+     android:layout_height="match_parent"
+     android:layout_margin="0dp"
+     android:orientation="vertical">
 
- <TextView
-     android:id="@+id/text_date"
-     android:layout_width="170dp"
-     android:layout_height="wrap_content"
-     android:layout_marginStart="240dp"
-     android:layout_marginLeft="240dp"
-     android:layout_marginTop="135dp"
-     android:text="@string/date"
-     android:textColor="@color/date"
-     android:textSize="20sp"
-     android:textStyle="bold"/>
+  <RelativeLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:orientation="vertical"
+      android:background="@mipmap/kakbah">
 
- <Button
-     android:id="@+id/persiapanhaji"
-     android:layout_width="100dp"
-     android:layout_height="100dp"
-     android:layout_marginStart="25dp"
-     android:layout_marginLeft="20dp"
-     android:layout_marginTop="30dp"
-     android:layout_below="@+id/kakbah"
-     android:background="@color/buttonDefault"
-     android:drawableTop="@mipmap/persiapanhaji"
-     android:text="@string/persiapan"/>
 
- <Button
-     android:id="@+id/fiqihumroh"
-     android:layout_width="100dp"
-     android:layout_height="100dp"
-     android:layout_marginStart="30dp"
-     android:layout_marginLeft="30dp"
-     android:layout_marginTop="30dp"
-     android:layout_below="@id/kakbah"
-     android:layout_toEndOf="@id/persiapanhaji"
-     android:layout_toRightOf="@id/persiapanhaji"
-     android:background="@color/buttonDefault"
-     android:drawableTop="@mipmap/fiqihumrah"
-     android:text="@string/fiqihumroh"
-     android:gravity="center"/>
+   <TextView
+       android:id="@+id/jam"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_marginStart="165dp"
+       android:layout_marginLeft="165dp"
+       android:layout_marginTop="80dp"
+       android:text="@string/date"
+       android:textColor="@color/date"
+       android:textSize="30sp"
+       android:textStyle="bold" />
 
- <Button
-     android:id="@+id/fiqihhaji"
-     android:layout_width="100dp"
-     android:layout_height="100dp"
-     android:layout_toRightOf="@id/fiqihumroh"
-     android:layout_toEndOf="@id/fiqihumroh"
-     android:layout_marginTop="30dp"
-     android:layout_marginLeft="30dp"
-     android:layout_marginRight="25dp"
-     android:layout_marginStart="30dp"
-     android:layout_below="@+id/kakbah"
-     android:layout_marginEnd="25dp"
-     android:background="@color/buttonDefault"
-     android:drawableTop="@mipmap/fiqihaji"
-     android:text="@string/fiqihhaji"/>
+   <TextView
+       android:id="@+id/textdate"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:gravity="center"
+       android:text="@string/date"
+       android:layout_below="@+id/jam"
+       android:textStyle="bold"
+       android:layout_marginLeft="180dp"
+       android:textColor="@color/date"
+       android:layout_marginStart="180dp" />
 
- <Button
-     android:id="@+id/dzikir"
-     android:layout_width="100dp"
-     android:layout_height="100dp"
-     android:layout_below="@id/persiapanhaji"
-     android:layout_marginTop="15dp"
-     android:layout_marginLeft="25dp"
-     android:layout_marginStart="25dp"
-     android:background="@color/buttonDefault"
-     android:drawableTop="@mipmap/islam"
-     android:text="@string/dzikir"/>
+   <Button
+       android:id="@+id/btncity"
+       android:layout_width="120dp"
+       android:hint="@string/search"
+       android:layout_height="wrap_content"
+       android:text="@string/search"
+       android:textAllCaps="false"/>
+  </RelativeLayout>
 
- <Button
-     android:id="@+id/tatacara"
-     android:layout_width="100dp"
-     android:layout_height="100dp"
-     android:layout_marginStart="30dp"
-     android:layout_marginLeft="30dp"
-     android:layout_marginTop="15dp"
-     android:layout_below="@id/fiqihumroh"
-     android:layout_toEndOf="@id/dzikir"
-     android:layout_toRightOf="@id/dzikir"
-     android:background="@color/buttonDefault"
-     android:drawableTop="@mipmap/tatcarum"
-     android:text="@string/tatacara"/>
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_margin="2dp"
+      android:gravity="center"
+      android:orientation="horizontal">
 
- <Button
-     android:id="@+id/tatacarhaji"
-     android:layout_width="100dp"
-     android:layout_height="100dp"
-     android:layout_marginStart="30dp"
-     android:layout_marginLeft="30dp"
-     android:layout_marginTop="15dp"
-     android:layout_below="@id/fiqihhaji"
-     android:layout_toEndOf="@id/tatacara"
-     android:layout_toRightOf="@id/tatacara"
-     android:background="@color/buttonDefault"
-     android:drawableTop="@mipmap/tatcarhaj"
-     android:text="@string/tatahaji"/>
+   <androidx.cardview.widget.CardView
+       android:id="@+id/persiapan"
+       android:layout_width="0dp"
+       android:layout_height="wrap_content"
+       android:layout_weight="3"
+       app:cardPreventCornerOverlap="true"
+       app:cardUseCompatPadding="true"
+       android:clickable="true"
+       app:contentPadding="10dp">
 
- <Button
-     android:id="@+id/petajarak"
-     android:layout_width="100dp"
-     android:layout_height="100dp"
-     android:layout_below="@id/dzikir"
-     android:layout_marginTop="15dp"
-     android:layout_marginLeft="25dp"
-     android:layout_marginStart="25dp"
-     android:background="@color/buttonDefault"
-     android:drawableTop="@mipmap/petajarak"
-     android:text="@string/Petajarak"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
 
- <Button
-     android:id="@+id/lokasi"
-     android:layout_width="100dp"
-     android:layout_height="100dp"
-     android:layout_below="@id/tatacara"
-     android:layout_marginTop="15dp"
-     android:layout_marginLeft="30dp"
-     android:layout_marginStart="30dp"
-     android:layout_toRightOf="@id/petajarak"
-     android:layout_toEndOf="@id/petajarak"
-     android:background="@color/buttonDefault"
-     android:drawableTop="@mipmap/lokasi"
-     android:text="@string/lokasi"/>
+     <ImageView
+         android:id="@+id/persiapanhj"
+         android:layout_width="match_parent"
+         android:layout_height="50dp"
+         android:padding="6dp"
+         android:src="@mipmap/persiapanhaji" />
 
- <Button
-     android:id="@+id/tanyajawab"
-     android:layout_width="100dp"
-     android:layout_height="100dp"
-     android:layout_below="@id/tatacara"
-     android:layout_marginTop="15dp"
-     android:layout_marginLeft="30dp"
-     android:layout_marginStart="30dp"
-     android:layout_toRightOf="@id/lokasi"
-     android:layout_toEndOf="@id/lokasi"
-     android:background="@color/buttonDefault"
-     android:drawableTop="@mipmap/tnj"
-     android:text="@string/tanyajawab"/>
+     <TextView
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:gravity="center"
+         android:text="@string/persiapan"
+         android:textSize="12sp"/>
 
-</RelativeLayout>
+    </LinearLayout>
+   </androidx.cardview.widget.CardView>
+
+   <androidx.cardview.widget.CardView
+       android:id="@+id/crdfiqihumroh"
+       android:layout_width="0dp"
+       android:layout_height="wrap_content"
+       android:layout_weight="3"
+       app:cardPreventCornerOverlap="true"
+       app:cardUseCompatPadding="true"
+       android:clickable="true"
+       app:contentPadding="10dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+     <ImageView
+         android:id="@+id/fiqihumroh"
+         android:layout_width="match_parent"
+         android:layout_height="50dp"
+         android:src="@mipmap/fiqihumrah"
+         android:padding="6dp"/>
+
+     <TextView
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:gravity="center"
+         android:textSize="12sp"
+         android:text="@string/fiqihumroh" />
+
+    </LinearLayout>
+   </androidx.cardview.widget.CardView>
+
+   <androidx.cardview.widget.CardView
+       android:id="@+id/crdfqhhj"
+       android:layout_width="0dp"
+       android:layout_height="wrap_content"
+       android:layout_weight="3"
+       app:cardPreventCornerOverlap="true"
+       app:cardUseCompatPadding="true"
+       android:clickable="true"
+       app:contentPadding="10dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+     <ImageView
+         android:id="@+id/fiqihhaji"
+         android:layout_width="match_parent"
+         android:layout_height="50dp"
+         android:src="@mipmap/fiqihaji"
+         android:padding="6dp"/>
+
+     <TextView
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:gravity="center"
+         android:textSize="12sp"
+         android:text="@string/fiqihhaji" />
+
+    </LinearLayout>
+   </androidx.cardview.widget.CardView>
+  </LinearLayout>
+
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_margin="5dp"
+      android:layout_marginTop="5dp"
+      android:gravity="center"
+      android:orientation="horizontal">
+
+   <androidx.cardview.widget.CardView
+       android:id="@+id/dzikir"
+       android:layout_width="0dp"
+       android:layout_height="wrap_content"
+       android:layout_weight="3"
+       app:cardPreventCornerOverlap="true"
+       app:cardUseCompatPadding="true"
+       android:clickable="true"
+       app:contentPadding="10dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+     <ImageView
+         android:id="@+id/dzikirdoa"
+         android:layout_width="match_parent"
+         android:layout_height="50dp"
+         android:padding="6dp"
+         android:src="@mipmap/doandzikir" />
+
+     <TextView
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:gravity="center"
+         android:text="@string/dzikir"
+         android:textSize="12sp"/>
+
+    </LinearLayout>
+   </androidx.cardview.widget.CardView>
+
+   <androidx.cardview.widget.CardView
+       android:id="@+id/tatacara"
+       android:layout_width="0dp"
+       android:layout_height="wrap_content"
+       android:layout_weight="3"
+       app:cardPreventCornerOverlap="true"
+       app:cardUseCompatPadding="true"
+       android:clickable="true"
+       app:contentPadding="10dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+     <ImageView
+         android:id="@+id/tatacaraumr"
+         android:layout_width="match_parent"
+         android:layout_height="50dp"
+         android:src="@mipmap/tatcarum"
+         android:padding="6dp"/>
+
+     <TextView
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:gravity="center"
+         android:text="@string/tatacara"
+         android:textSize="12sp"/>
+
+    </LinearLayout>
+   </androidx.cardview.widget.CardView>
+
+   <androidx.cardview.widget.CardView
+       android:id="@+id/tatacarhaji"
+       android:layout_width="0dp"
+       android:layout_height="wrap_content"
+       android:layout_weight="3"
+       app:cardPreventCornerOverlap="true"
+       app:cardUseCompatPadding="true"
+       android:clickable="true"
+       app:contentPadding="10dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+     <ImageView
+         android:id="@+id/tatacarahaji"
+         android:layout_width="match_parent"
+         android:layout_height="50dp"
+         android:src="@mipmap/tatcarhaj"
+         android:padding="6dp"/>
+
+     <TextView
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:gravity="center"
+         android:textSize="12sp"
+         android:text="@string/tatahaji" />
+
+    </LinearLayout>
+   </androidx.cardview.widget.CardView>
+  </LinearLayout>
+
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_margin="5dp"
+      android:layout_marginTop="5dp"
+      android:gravity="center"
+      android:orientation="horizontal">
+
+   <androidx.cardview.widget.CardView
+       android:id="@+id/petajarak"
+       android:layout_width="0dp"
+       android:layout_height="wrap_content"
+       android:layout_weight="3"
+       app:cardPreventCornerOverlap="true"
+       app:cardUseCompatPadding="true"
+       android:clickable="true"
+       app:contentPadding="10dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+     <ImageView
+         android:id="@+id/peta"
+         android:layout_width="match_parent"
+         android:layout_height="50dp"
+         android:padding="6dp"
+         android:src="@mipmap/petajarak" />
+
+     <TextView
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:gravity="center"
+         android:text="@string/Petajarak"
+         android:textSize="12sp"/>
+
+    </LinearLayout>
+   </androidx.cardview.widget.CardView>
+
+   <androidx.cardview.widget.CardView
+       android:id="@+id/lokasi"
+       android:layout_width="0dp"
+       android:layout_height="wrap_content"
+       android:layout_weight="3"
+       app:cardPreventCornerOverlap="true"
+       app:cardUseCompatPadding="true"
+       android:clickable="true"
+       app:contentPadding="10dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+     <ImageView
+         android:id="@+id/lokasii"
+         android:layout_width="match_parent"
+         android:layout_height="50dp"
+         android:src="@mipmap/lokasi"
+         android:padding="6dp"/>
+
+     <TextView
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:gravity="center"
+         android:text="@string/lokasi"
+         android:textSize="12sp"/>
+
+    </LinearLayout>
+   </androidx.cardview.widget.CardView>
+
+   <androidx.cardview.widget.CardView
+       android:id="@+id/tanyajawab"
+       android:layout_width="0dp"
+       android:layout_height="wrap_content"
+       android:layout_weight="3"
+       app:cardPreventCornerOverlap="true"
+       app:cardUseCompatPadding="true"
+       android:clickable="true"
+       app:contentPadding="10dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+     <ImageView
+         android:id="@+id/qna"
+         android:layout_width="match_parent"
+         android:layout_height="50dp"
+         android:src="@mipmap/tnj"
+         android:padding="6dp"/>
+
+     <TextView
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:gravity="center"
+         android:text="@string/tanyajawab"
+         android:textSize="12sp"/>
+
+    </LinearLayout>
+   </androidx.cardview.widget.CardView>
+  </LinearLayout>
+ </LinearLayout>
+</LinearLayout>

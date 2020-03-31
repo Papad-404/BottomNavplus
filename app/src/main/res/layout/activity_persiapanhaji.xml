@@ -11,16 +11,17 @@
         android:clipToPadding="false"
         android:gravity="center"
         android:orientation="horizontal"
+        android:layout_gravity="center"
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
 
         <androidx.cardview.widget.CardView
             android:foreground="?android:attr/selectableItemBackground"
             android:clickable="true"
-            android:layout_width="120dp"
-            android:layout_height="130dp"
-            android:layout_margin="10dp"
-            android:id="@+id/btnfq1">
+            android:layout_width="110dp"
+            android:layout_height="120dp"
+            android:layout_margin="8dp"
+            android:id="@+id/btn1">
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
@@ -46,10 +47,10 @@
         <androidx.cardview.widget.CardView
             android:foreground="?android:attr/selectableItemBackground"
             android:clickable="true"
-            android:layout_width="120dp"
-            android:layout_height="130dp"
-            android:layout_margin="10dp"
-            android:id="@+id/btnfq2">
+            android:layout_width="110dp"
+            android:layout_height="120dp"
+            android:layout_margin="8dp"
+            android:id="@+id/btn2">
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
@@ -75,10 +76,10 @@
         <androidx.cardview.widget.CardView
             android:foreground="?android:attr/selectableItemBackground"
             android:clickable="true"
-            android:layout_width="120dp"
-            android:layout_height="130dp"
-            android:layout_margin="10dp"
-            android:id="@+id/btnfq3">
+            android:layout_width="110dp"
+            android:layout_height="120dp"
+            android:layout_margin="8dp"
+            android:id="@+id/btn3">
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
@@ -114,10 +115,10 @@
         <androidx.cardview.widget.CardView
             android:foreground="?android:attr/selectableItemBackground"
             android:clickable="true"
-            android:layout_width="120dp"
-            android:layout_height="130dp"
-            android:layout_margin="10dp"
-            android:id="@+id/btnfq4">
+            android:layout_width="110dp"
+            android:layout_height="120dp"
+            android:layout_margin="8dp"
+            android:id="@+id/btn4">
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
@@ -127,7 +128,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="85dp"
                     android:background="@color/buttonDefault"
-                    android:src="@drawable/bersabarlah"
+                    android:src="@mipmap/bersabarlah"
                     android:padding="10dp"/>
                 <TextView
                     android:layout_width="wrap_content"
@@ -143,10 +144,10 @@
         <androidx.cardview.widget.CardView
             android:foreground="?android:attr/selectableItemBackground"
             android:clickable="true"
-            android:layout_width="120dp"
-            android:layout_height="130dp"
-            android:layout_margin="10dp"
-            android:id="@+id/btnfq5">
+            android:layout_width="110dp"
+            android:layout_height="120dp"
+            android:layout_margin="8dp"
+            android:id="@+id/btn5">
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
@@ -172,10 +173,10 @@
         <androidx.cardview.widget.CardView
             android:foreground="?android:attr/selectableItemBackground"
             android:clickable="true"
-            android:layout_width="120dp"
-            android:layout_height="130dp"
-            android:layout_margin="10dp"
-            android:id="@+id/btnfq6">
+            android:layout_width="110dp"
+            android:layout_height="120dp"
+            android:layout_margin="8dp"
+            android:id="@+id/btn6">
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
@@ -210,10 +211,10 @@
         <androidx.cardview.widget.CardView
             android:foreground="?android:attr/selectableItemBackground"
             android:clickable="true"
-            android:layout_width="120dp"
-            android:layout_height="130dp"
-            android:layout_margin="10dp"
-            android:id="@+id/btnfq7">
+            android:layout_width="110dp"
+            android:layout_height="120dp"
+            android:layout_margin="8dp"
+            android:id="@+id/btn7">
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
@@ -223,7 +224,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="85dp"
                     android:background="@color/buttonDefault"
-                    android:src="@drawable/berdebat"
+                    android:src="@mipmap/berdebat"
                     android:padding="10dp"/>
                 <TextView
                     android:layout_width="wrap_content"
@@ -239,10 +240,10 @@
         <androidx.cardview.widget.CardView
             android:foreground="?android:attr/selectableItemBackground"
             android:clickable="true"
-            android:layout_width="120dp"
-            android:layout_height="130dp"
-            android:layout_margin="10dp"
-            android:id="@+id/btnfq8">
+            android:layout_width="110dp"
+            android:layout_height="120dp"
+            android:layout_margin="8dp"
+            android:id="@+id/btn8">
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
@@ -254,24 +255,25 @@
                     android:background="@color/buttonDefault"
                     android:src="@mipmap/thawaf"
                     android:padding="10dp"/>
+
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:textStyle="bold"
                     android:layout_marginTop="10dp"
+                    android:gravity="center"
                     android:text="@string/jangan_maksiat_agar_mabrur"
                     android:textSize="12sp"
-                    android:gravity="center"/>
+                    android:textStyle="bold" />
 
             </LinearLayout>
         </androidx.cardview.widget.CardView>
         <androidx.cardview.widget.CardView
             android:foreground="?android:attr/selectableItemBackground"
             android:clickable="true"
-            android:layout_width="120dp"
-            android:layout_height="130dp"
-            android:layout_margin="10dp"
-            android:id="@+id/btnfq9">
+            android:layout_width="110dp"
+            android:layout_height="120dp"
+            android:layout_margin="8dp"
+            android:id="@+id/btn9">
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
@@ -305,10 +307,10 @@
         <androidx.cardview.widget.CardView
             android:foreground="?android:attr/selectableItemBackground"
             android:clickable="true"
-            android:layout_width="120dp"
-            android:layout_height="130dp"
-            android:layout_margin="10dp"
-            android:id="@+id/btnfq10">
+            android:layout_width="110dp"
+            android:layout_height="120dp"
+            android:layout_margin="8dp"
+            android:id="@+id/btn10">
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
@@ -334,10 +336,10 @@
         <androidx.cardview.widget.CardView
             android:foreground="?android:attr/selectableItemBackground"
             android:clickable="true"
-            android:layout_width="120dp"
-            android:layout_height="130dp"
-            android:layout_margin="10dp"
-            android:id="@+id/btnfq11">
+            android:layout_width="110dp"
+            android:layout_height="120dp"
+            android:layout_margin="8dp"
+            android:id="@+id/btn11">
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
@@ -363,10 +365,10 @@
         <androidx.cardview.widget.CardView
             android:foreground="?android:attr/selectableItemBackground"
             android:clickable="true"
-            android:layout_width="120dp"
-            android:layout_height="130dp"
-            android:layout_margin="10dp"
-            android:id="@+id/btnfq12">
+            android:layout_width="110dp"
+            android:layout_height="120dp"
+            android:layout_margin="8dp"
+            android:id="@+id/btn12">
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"

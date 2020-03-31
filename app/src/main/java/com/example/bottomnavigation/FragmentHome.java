@@ -13,15 +13,15 @@ import android.widget.TextView;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
+import androidx.cardview.widget.CardView;
 import androidx.fragment.app.Fragment;
 
 import java.text.DateFormat;
 import java.util.Calendar;
 
 public class FragmentHome extends Fragment implements View.OnClickListener {
-    TextView textView;
-    private Button button;
-    private Button persiapan, umroh, haji, dzikir, carahaji, caraumrah, peta, lokasi, tnj;
+    Button button;
+    CardView persiapan, umroh, haji, dzikir, carahaji, caraumrah, peta, lokasi, tnj;
 
     @Nullable
     @Override
@@ -40,17 +40,17 @@ public class FragmentHome extends Fragment implements View.OnClickListener {
         Calendar calendar = Calendar.getInstance();
         String currentDate = DateFormat.getDateInstance(DateFormat.FULL).format(calendar.getTime());
 
-        TextView textViewDate = view.findViewById(R.id.text_date);
+        TextView textViewDate = view.findViewById(R.id.textdate);
         textViewDate.setText(currentDate);
 
         Intent intent = getActivity().getIntent();
         button.setText(intent.getStringExtra("mycity"));
 
-        persiapan = view.findViewById(R.id.persiapanhaji);
+        persiapan = view.findViewById(R.id.persiapan);
         persiapan.setOnClickListener(this);
-        umroh = view.findViewById(R.id.fiqihumroh);
+        umroh = view.findViewById(R.id.crdfiqihumroh);
         umroh.setOnClickListener(this);
-        haji = view.findViewById(R.id.fiqihhaji);
+        haji = view.findViewById(R.id.crdfqhhj);
         haji.setOnClickListener(this);
         dzikir = view.findViewById(R.id.dzikir);
         dzikir.setOnClickListener(this);
@@ -90,15 +90,15 @@ public class FragmentHome extends Fragment implements View.OnClickListener {
     @Override
     public void onClick(View view) {
         switch (view.getId()) {
-            case R.id.persiapanhaji:
+            case R.id.persiapan:
                 Intent persiap = new Intent(getActivity(), persiapanhaji.class);
                 startActivity(persiap);
                 break;
-            case R.id.fiqihhaji:
+            case R.id.crdfqhhj:
                 Intent fhaj = new Intent(getActivity(), FiqihHaji.class);
                 startActivity(fhaj);
                 break;
-            case R.id.fiqihumroh:
+            case R.id.crdfiqihumroh:
                 Intent fum = new Intent(getActivity(), FiqihUmrah.class);
                 startActivity(fum);
                 break;

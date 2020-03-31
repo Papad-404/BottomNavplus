@@ -16,8 +16,8 @@ public class MainActivityUmrah extends AppCompatActivity implements MainActivity
         setContentView(R.layout.fiqihumrah_viewpager);
 
         TabLayout tabs = findViewById(R.id.tabs);
-        tabs.addTab(tabs.newTab().setText("Tab 1"));
-        tabs.addTab(tabs.newTab().setText("Tab 2"));
+        tabs.addTab(tabs.newTab().setText("Ihram"));
+        tabs.addTab(tabs.newTab().setText("Miqot"));
         tabs.setTabGravity(TabLayout.GRAVITY_FILL);
 
         final ViewPager viewPager = findViewById(R.id.view_pager);
