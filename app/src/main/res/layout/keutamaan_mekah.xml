@@ -1,0 +1,342 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".bKeutamaanMekah">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/m1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="10dp"
+        android:text="1. Negeri Haram yang Aman"
+        android:textSize="20sp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/a"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/m1"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="19dp"
+        android:text="dilarang menumpahkan darah, memotong pepohonan dan tumbuhan, memburu hewan buruan dan mengambil barang temuan kecuali untuk diumumkan"
+        android:textSize="12sp"/>
+
+    <TextView
+        android:id="@+id/dalil1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/a"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="19dp"
+        android:text="HR. Bukhari no 104"
+        android:textSize="15sp"/>
+
+    <TextView
+        android:id="@+id/m2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/dalil1"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="10dp"
+        android:text="2. Induk Kota Lain di Dunia"
+        android:textSize="20sp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/dalil2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/m2"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="19dp"
+        android:text="QS. Asy Syura : 7"
+        android:textSize="15sp"/>
+
+    <TextView
+        android:id="@+id/m3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/dalil2"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="10dp"
+        android:text="3. Kiblat Kaum Muslimin Dari Segala Penjuru"
+        android:textSize="20sp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/dalil3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/m3"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="19dp"
+        android:text="QS. Al – Baqarah : 150"
+        android:textSize="15sp"/>
+
+
+    <TextView
+        android:id="@+id/m4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/dalil3"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="10dp"
+        android:text="4. Allah Menjamin Keamanan Bagi Setiap Orang yang Memasukinya"
+        android:textSize="20sp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/dalil4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/m4"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="19dp"
+        android:text="QS. Ali Imran: 97"
+        android:textSize="15sp"/>
+
+    <TextView
+        android:id="@+id/m5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/dalil4"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="10dp"
+        android:text="5. Tidak Boleh Buang Air Menghadap atau Membelakangi Kabah"
+        android:textSize="20sp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/dalil5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/m5"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="19dp"
+        android:text="HR. Bukhari 394"
+        android:textSize="15sp"/>
+
+    <TextView
+        android:id="@+id/m6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/dalil5"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="10dp"
+        android:text="6. Tempat Menunaikan Ibadah Haji"
+        android:textSize="20sp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/b"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/m6"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="19dp"
+        android:text="Allah memilih Kota Mekah sebagai tempat manunaikan ibadah Haji dan menjadikan perjalanan menuju Kota Mekah sebagai penggugur dosa"
+        android:textSize="12sp"/>
+
+
+    <TextView
+        android:id="@+id/dalil6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/b"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="19dp"
+        android:text="HR. Bukhari no 1819"
+        android:textSize="15sp"/>
+
+    <TextView
+        android:id="@+id/m7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/dalil6"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="10dp"
+        android:text="7. Kota Terbaik dan Paling Dicintai Rasul"
+        android:textSize="20sp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/dalil7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/m7"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="19dp"
+        android:text="HR. tirmidzi 3925"
+        android:textSize="15sp"/>
+
+    <TextView
+        android:id="@+id/m8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/dalil7"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="10dp"
+        android:text="8. Titik Tolak Perjalanan Isra' Mi'raj"
+        android:textSize="20sp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/dalil8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/m8"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="19dp"
+        android:text="QS. Al – Isra’ : 1"
+        android:textSize="15sp"/>
+
+    <TextView
+        android:id="@+id/m9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/dalil8"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="10dp"
+        android:text="9. Dicondongkan Hatinya Kepada Rasul"
+        android:textSize="20sp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/c"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/m9"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="19dp"
+        android:text="Allah menjadikan hati orang-orang yang berada di Kota Mekah condong kepada Rasulullah"
+        android:textSize="12sp"/>
+
+
+    <TextView
+        android:id="@+id/dalil9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/c"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="19dp"
+        android:text="QS. Al – Baqarah : 125"
+        android:textSize="15sp"/>
+
+    <TextView
+        android:id="@+id/m10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/dalil9"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="10dp"
+        android:text="10. Orang Kafir Dilarang Memasukinya"
+        android:textSize="20sp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/dalil10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/m10"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="19dp"
+        android:text="QS. At – Taubah : 28"
+        android:textSize="15sp"/>
+
+    <TextView
+        android:id="@+id/m11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/dalil10"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="10dp"
+        android:text="11. Memudahkan Buah-buahan Tumbuh di Mekah"
+        android:textSize="20sp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/dalil11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/m11"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="19dp"
+        android:text="QS. Al – Qashash : 57"
+        android:textSize="15sp"/>
+
+    <TextView
+        android:id="@+id/m12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/dalil11"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="10dp"
+        android:text="12. Dilarang Membawa Senjata di Dalam Kota Mekah"
+        android:textSize="20sp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/dalil12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/m12"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="19dp"
+        android:text="HR. Muslim no 1356"
+        android:textSize="15sp"/>
+
+    <TextView
+        android:id="@+id/m13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/dalil12"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="10dp"
+        android:text="13. Negeri yang Tidak Bisa Dimasuki Dajjal"
+        android:textSize="20sp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/dalil13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/m13"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="19dp"
+        android:text="HR. Muslim 2943"
+        android:textSize="15sp"/>
+
+    <TextView
+        android:id="@+id/m14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/dalil13"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="10dp"
+        android:text="14. Maksiat di Mekah Dosanya Sangat Besar"
+        android:textSize="20sp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/dalil14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/m14"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="19dp"
+        android:text="Tafsir al – Baghawi 5/377-378"
+        android:textSize="15sp"/>
+
+    </RelativeLayout>
+
+</ScrollView>

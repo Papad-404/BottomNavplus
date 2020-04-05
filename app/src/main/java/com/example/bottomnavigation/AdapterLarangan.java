@@ -36,7 +36,7 @@ public class AdapterLarangan extends RecyclerView.Adapter<HolderIhram> {
         holder.setClickListenerIhram(new ItemClickListenerIhram() {
             @Override
             public void onItemClickListenerIhram(View v, int position) {
-                if (ihramModel.get(position).getTitle().equals("Memotong rambut/bulu")) {
+                if (ihramModel.get(position).getTitle().equals("Memotong/mencukur rambut/bulu")) {
                     Intent jelas = new Intent(context, iLaranganPotong.class);
                     context.startActivity(jelas);
                 }
@@ -52,11 +52,11 @@ public class AdapterLarangan extends RecyclerView.Adapter<HolderIhram> {
                     Intent in = new Intent(context, iLaranganKpl.class);
                     context.startActivity(in);
                 }
-                if (ihramModel.get(position).getTitle().equals("Pakaian jahit")) {
+                if (ihramModel.get(position).getTitle().equals("Memakai pakaian yang berjahit")) {
                     Intent in = new Intent(context, iLaranganJahit.class);
                     context.startActivity(in);
                 }
-                if (ihramModel.get(position).getTitle().equals("Berburu hewan darat")) {
+                if (ihramModel.get(position).getTitle().equals("Berburu hewan buruan darat")) {
                     Intent jelas = new Intent(context, iLaranganBerburu.class);
                     context.startActivity(jelas);
                 }
@@ -64,7 +64,7 @@ public class AdapterLarangan extends RecyclerView.Adapter<HolderIhram> {
                     Intent in = new Intent(context, iLaranganAkad.class);
                     context.startActivity(in);
                 }
-                if (ihramModel.get(position).getTitle().equals("nganu")) {
+                if (ihramModel.get(position).getTitle().equals("Melakukan hubungan suami istri")) {
                     Intent in = new Intent(context, iLaranganNganu.class);
                     context.startActivity(in);
                 }
@@ -72,7 +72,7 @@ public class AdapterLarangan extends RecyclerView.Adapter<HolderIhram> {
                     Intent in = new Intent(context, iLaranganBercumbu.class);
                     context.startActivity(in);
                 }
-                if (ihramModel.get(position).getTitle().equals("Peringatan")) {
+                if (ihramModel.get(position).getTitle().equals("Peringatan: Tidak semua pelanggaran harus bayar denda")) {
                     Intent in = new Intent(context, iPeringatan.class);
                     context.startActivity(in);
                 }

@@ -32,7 +32,7 @@ public class FragmentHome extends Fragment implements View.OnClickListener {
         button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent mintent = new Intent(getActivity(), MapsActivity.class);
+                Intent mintent = new Intent(getActivity(), MapsActivity2.class);
                 startActivity(mintent);
             }
         });
@@ -106,6 +106,9 @@ public class FragmentHome extends Fragment implements View.OnClickListener {
                 Intent dz = new Intent(getActivity(), DzikirDoa.class);
                 startActivity(dz);
                 break;
+            case R.id.lokasi:
+                Intent lks = new Intent(getActivity(), LokasiZiarah.class);
+                startActivity(lks);
         }
     }
 }

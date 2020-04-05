@@ -10,13 +10,13 @@
 
     <RelativeLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="69dp"
         android:padding="16dp">
 
         <ImageView
             android:id="@+id/image_penjelas"
-            android:layout_width="60dp"
-            android:layout_height="60dp"
+            android:layout_width="wrap_content"
+            android:layout_height="34dp"
             android:src="@mipmap/ihram_penjelasan" />
 
         <TextView
@@ -27,12 +27,10 @@
             android:layout_marginLeft="2dp"
             android:layout_toEndOf="@id/image_penjelas"
             android:layout_toRightOf="@id/image_penjelas"
-            android:paddingTop="20dp"
-            android:paddingLeft="15dp"
+            android:layout_centerInParent="true"
             android:text="@string/ihram_penjelasan"
             android:textColor="#000"
-            android:textSize="18dp"
-            android:textStyle="bold" />
+            android:textSize="14sp"/>
     </RelativeLayout>
 
 </androidx.cardview.widget.CardView>

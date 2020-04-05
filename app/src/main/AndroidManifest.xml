@@ -19,15 +19,15 @@
             android:name="com.google.android.geo.API_KEY"
             android:value="@string/google_maps_key" />
 
-        <activity android:name=".MainActivity">
+        <activity android:name=".SplashScreen">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".MapsActivity" />
-
+        <activity android:name=".MainActivity"/>
+        <activity android:name=".MapsActivity2" />
         <activity
             android:name=".search"
             android:parentActivityName=".MainActivity" />
@@ -52,6 +52,8 @@
         <activity
             android:name=".FiqihHaji"
             android:parentActivityName=".MainActivity" />
+        <activity android:name=".LokasiZiarah"
+            android:parentActivityName=".MainActivity"/>
 
         <activity android:name=".MainActivityGundul"
             android:parentActivityName=".FiqihUmrah"/>
@@ -194,6 +196,23 @@
             android:parentActivityName=".iLarangan"/>
         <activity android:name=".iPeringatan"
             android:parentActivityName=".iLarangan"/>
+
+        <activity android:name=".bKeutamaanMekah"
+            android:parentActivityName=".LokasiZiarah"/>
+        <activity android:name=".bKabah"
+            android:parentActivityName=".LokasiZiarah"/>
+        <activity android:name=".bMasjidilHaram"
+            android:parentActivityName=".LokasiZiarah"/>
+        <activity android:name=".bMina"
+            android:parentActivityName=".LokasiZiarah"/>
+        <activity android:name=".bArafah"
+            android:parentActivityName=".LokasiZiarah"/>
+        <activity android:name=".bMuzdalifah"
+            android:parentActivityName=".LokasiZiarah"/>
+        <activity android:name=".bHira"
+            android:parentActivityName=".LokasiZiarah"/>
+        <activity android:name=".bTsur"
+            android:parentActivityName=".LokasiZiarah"/>
 
 
     </application>

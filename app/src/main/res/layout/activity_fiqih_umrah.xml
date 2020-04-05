@@ -10,6 +10,7 @@
     android:background="@color/bg"
     tools:context=".FiqihUmrah">
 
+
     <LinearLayout
         android:clipToPadding="false"
         android:gravity="center"
@@ -204,6 +205,4 @@
             </LinearLayout>
         </androidx.cardview.widget.CardView>
     </LinearLayout>
-
-
 </LinearLayout>

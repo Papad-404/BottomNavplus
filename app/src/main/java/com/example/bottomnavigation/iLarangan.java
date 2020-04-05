@@ -34,7 +34,7 @@ public class iLarangan extends AppCompatActivity implements View.OnClickListener
         ArrayList<ModelIhram> models = new ArrayList<>();
 
         ModelIhram model = new ModelIhram();
-        model.setTitle("Memotong rambut/bulu");
+        model.setTitle("Memotong/mencukur rambut/bulu");
         model.setImg(R.mipmap.i_laranganbulu);
         models.add(model);
 
@@ -54,12 +54,12 @@ public class iLarangan extends AppCompatActivity implements View.OnClickListener
         models.add(model);
 
         model = new ModelIhram();
-        model.setTitle("Pakaian jahit");
+        model.setTitle("Memakai pakaian yang berjahit");
         model.setImg(R.mipmap.i_laranganjahit);
         models.add(model);
 
         model = new ModelIhram();
-        model.setTitle("Berburu hewan darat");
+        model.setTitle("Berburu hewan buruan darat");
         model.setImg(R.mipmap.i_laranganberburu);
         models.add(model);
 
@@ -69,7 +69,7 @@ public class iLarangan extends AppCompatActivity implements View.OnClickListener
         models.add(model);
 
         model = new ModelIhram();
-        model.setTitle("nganu");
+        model.setTitle("Melakukan hubungan suami istri");
         model.setImg(R.mipmap.i_larangannganu);
         models.add(model);
 
@@ -79,7 +79,7 @@ public class iLarangan extends AppCompatActivity implements View.OnClickListener
         models.add(model);
 
         model = new ModelIhram();
-        model.setTitle("Peringatan");
+        model.setTitle("Peringatan: Tidak semua pelanggaran harus bayar denda");
         model.setImg(R.mipmap.i_peringatan);
         models.add(model);
 
