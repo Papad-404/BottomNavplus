@@ -21,7 +21,7 @@
         android:id="@+id/compass_image"
         android:layout_below="@+id/DegreeTV"
         android:layout_centerHorizontal="true"
-        android:src="@mipmap/compass1" />
+        android:src="@drawable/compass4" />
 
 
 

@@ -28,7 +28,8 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_below="@id/textadd"
-            android:text="@string/kirim_lokasi" />
+            android:text="@string/kirim_lokasi"
+            android:background="@color/bg" />
 
         <TextView
             android:id="@+id/textadd"

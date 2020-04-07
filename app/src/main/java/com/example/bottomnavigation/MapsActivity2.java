@@ -71,7 +71,7 @@ public class MapsActivity2 extends FragmentActivity implements OnMapReadyCallbac
             public void onClick(View v) {
                 new AlertDialog.Builder(MapsActivity2.this)
                         .setTitle("Perhatian")
-                        .setMessage("Yakin Ga?")
+                        .setMessage("Update lokasi?")
                         .setPositiveButton("Yes", new DialogInterface.OnClickListener() {
                             @Override
                             public void onClick(DialogInterface dialog, int which) {

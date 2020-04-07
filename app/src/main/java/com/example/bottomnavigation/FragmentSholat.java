@@ -68,7 +68,7 @@ public class FragmentSholat extends Fragment {
 
     private void searchLoc() {
         pDialog = new ProgressDialog(getActivity());
-        pDialog.setMessage("Makan Bang");
+        pDialog.setMessage("Loading...");
         pDialog.show();
 
         Geocoder geocoder;

@@ -16,9 +16,9 @@
 
   <RelativeLayout
       android:layout_width="match_parent"
-      android:layout_height="wrap_content"
+      android:layout_height="180dp"
       android:orientation="vertical"
-      android:background="@mipmap/kakbah">
+      android:background="@drawable/kakbah2">
 
 
    <TextView
@@ -29,9 +29,9 @@
        android:layout_marginLeft="165dp"
        android:layout_marginTop="80dp"
        android:text="@string/date"
-       android:textColor="@color/date"
+       android:textColor="#FFFF"
        android:textSize="30sp"
-       android:textStyle="bold" />
+       android:textStyle="bold"/>
 
    <TextView
        android:id="@+id/textdate"
@@ -42,7 +42,7 @@
        android:layout_below="@+id/jam"
        android:textStyle="bold"
        android:layout_marginLeft="180dp"
-       android:textColor="@color/date"
+       android:textColor="#FFFF"
        android:layout_marginStart="180dp" />
 
    <Button
