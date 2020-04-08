@@ -21,12 +21,6 @@
         android:enabled="true"/>
 
     <item
-        android:id="@+id/kesehatan"
-        android:title="@string/kesehatan"
-        android:icon="@drawable/health"
-        android:enabled="true"/>
-
-    <item
         android:id="@+id/author"
         android:title="@string/author"
         android:icon="@drawable/user"

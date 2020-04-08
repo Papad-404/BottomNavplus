@@ -72,6 +72,8 @@ public class MainActivityIhram extends Fragment implements View.OnClickListener 
         return models;
     }
 
+
+
     // TODO: Rename method, update argument and hook method into UI event
     public void onButtonPressed(Uri uri) {
         if (mListener != null) {
@@ -105,4 +107,5 @@ public class MainActivityIhram extends Fragment implements View.OnClickListener 
         // TODO: Update argument type and name
         void onFragmentInteraction(Uri uri);
     }
+
 }

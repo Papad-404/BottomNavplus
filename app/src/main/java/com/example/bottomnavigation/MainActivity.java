@@ -52,9 +52,6 @@ public class MainActivity extends AppCompatActivity implements BottomNavigationV
             case R.id.kiblat:
                 fragment = new FragmentKiblat();
                 break;
-            case R.id.kesehatan:
-                fragment = new FragmentHealth();
-                break;
             case R.id.author:
                 fragment = new FragmentUser();
                 break;
